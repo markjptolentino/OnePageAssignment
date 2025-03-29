@@ -27,10 +27,12 @@
     <!-- Pictures Section -->
     <section id="pictures">
         <h2>My Work</h2>
-        <img src="./images/thumb/thumbnail_1.png" alt="">
-        <img src="./images/thumb/thumbnail_2.png" alt="">
-		<img src="./images/thumb/thumbnail_3.png" alt="">
-		<img src="./images/thumb/thumbnail_4.png" alt="">
+        <div class="image-gallery">
+            <img src="./images/thumb/thumbnail_1.png" alt="Cybersecurity Project 1" class="gallery-img">
+            <img src="./images/thumb/thumbnail_2.png" alt="Cybersecurity Project 2" class="gallery-img">
+            <img src="./images/thumb/thumbnail_3.png" alt="Cybersecurity Project 3" class="gallery-img">
+            <img src="./images/thumb/thumbnail_4.png" alt="Cybersecurity Project 4" class="gallery-img">
+        </div>
     </section>
 
     <!-- Contact Form Section -->
@@ -38,11 +40,11 @@
         <h2>Contact Me</h2>
         <form action="mailto:tolentinomarkjp@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+            <input type="text" id="name" name="name" required><br><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+            <input type="email" id="email" name="email" required><br><br>
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
+            <textarea id="message" name="message" required></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
     </section>
@@ -55,7 +57,7 @@
 
     <!-- Footer -->
     <footer>
-        <p><a href="https://www.linkedin.com/in/mark-jp-tolentino-043522294/">LinkedIn</a> | <a href="https://github.com/markjptolentino">GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/mark-jp-tolentino-043522294/" target="_blank">LinkedIn</a> | <a href="https://github.com/markjptolentino" target="_blank">GitHub</a></p>
     </footer>
 
 </body>
